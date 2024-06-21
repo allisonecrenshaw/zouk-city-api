@@ -10,12 +10,12 @@ export class Event extends BaseEntity {
   @Column({ nullable: false })
   title: string;
 
-  @Column({ nullable: true })
+  @Column()
   description: string;
 
   @Column({ nullable: false })
   mainWebsiteUrl: string;
 
-  @Column({ nullable: true })
+  @Column()
   registrationUrl: string;
 }
