@@ -1,30 +1,23 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+## About the BZoukCity Project
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[BZoukCity](https://zoukcity.com/) is a personal project by Austin, TX software engineer Allison Crenshaw. This project is primarily intended as a learning and portfolio project, but the long-term vision is a functional web app that provides an adaptable, easy-to-use tool for the dance community to find, organize, and advertise local events. Anticipated early features include:
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+- Ability for organizers to create one-time or recurring events
+- A page for names and bios of local instructors and DJs
+- A page to view all recurring events such as weekly classes and socials
+- A calendar of events to see recurring and one-time events all in one spot
 
-## Description
+While in early development, the website will be limited to these features and also limited to events in Austin for practicality reasons. The long-term vision for the project includes potential additional features like the ability to create an account and edit your submitted events, ability to share event edit permission with other organizers, maps integrations, and more.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## About the Developer
+
+Hello! I'm Allison, a growing software engineer in Austin, TX. Before becoming a developer, I had a very different career. I originally studied social work at James Madison University. After moving to Austin in 2016, I worked for 5 years with teens and young adults in career and education services.
+
+Through involvement in the social dance community in Austin, I became exposed to and interested in software engineering. I went back to school at Austin Community in 2019 for an Associate's degree in software development. In 2021, I graduated with my degree at ACC and I took my first job as a QA Engineer at Dell Technologies. After 3 years in QA, I landed an Associate Software Engineer role focused in backend development and database design. Now, I'm looking for my next software engineer role and expanding my skills in front-end development to become a full-stack developer. Check out my LinkedIn profile [here](https://www.linkedin.com/in/allison-crenshaw/).
+
+## Backend Development
+
+While this project (and my front-end skills) are in development, the website may not be much to look at. In the mean-time, I've worked hard to create a database design that's highly flexible for all of the different ways that dance events can be scheduled. Please check out my ERD (entity relationship diagram) on LucidChart [here](https://lucid.app/lucidchart/77df716c-1b61-4dc6-8336-4895d9a628ad/edit?viewport_loc=-163%2C390%2C3420%2C1779%2C0_0&invitationId=inv_0f2be840-5bf7-4944-8590-4bcea11bf149).
 
 ## Installation
 
@@ -45,7 +38,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Test - Not Yet Implemented
 
 ```bash
 # unit tests
@@ -57,17 +50,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
