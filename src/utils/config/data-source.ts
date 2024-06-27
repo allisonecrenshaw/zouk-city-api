@@ -6,7 +6,7 @@ config();
 
 const configService = new ConfigService();
 
-export const interactDataSource = new DataSource({
+export const dataSource = new DataSource({
   type: 'postgres',
   host: configService.get('DB_HOST'),
   port: configService.get('DB_PORT'),
